@@ -1,7 +1,7 @@
-This project is for understand the How to use Router in react application.
+This project is for understand the What's the difference between State and Props in React application
 ## Table of Contents
 
-- [React Router V4](#react-router-v4)
+- [React State and Props](#react-state-props)
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
@@ -10,8 +10,27 @@ This project is for understand the How to use Router in react application.
   - [npm run eject](#npm-run-eject)
 - [Supported Browsers](#supported-browsers)
 
-## React Router v4
-   This will demostrate the use of Route, BrowserRouter, Switch, Link in React application. By using this we can make routing in react web application
+## React State and Props
+   For parent-child communication, simply pass props.
+
+      Use state to store the data your current page needs in your controller-view.
+
+      Use props to pass data & event handlers down to your child components.
+
+      These lists should help guide you when working with data in your components.
+
+      Props
+
+      are immutable - which lets React do fast reference checks
+      are used to pass data down from your view-controller   - your top level component
+      have better performance  - use this to pass data to child components
+
+      State
+
+      should be managed in your view-controller - your top level component
+      is mutable
+      has worse performance
+      should not be accessed from child components  - pass it down with props instead
 
 ## Folder Structure
 
