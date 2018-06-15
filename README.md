@@ -1,7 +1,7 @@
 This project is for understand the What's the difference between State and Props in React application
 ## Table of Contents
 
-- [React State and Props](#react-state-props)
+- [React State and Props](#react-state-and-props)
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
